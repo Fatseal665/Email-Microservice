@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitConfig {
 
-    public static final String QUEUE_NAME = "user.events";
+    public static final String QUEUE_NAME = "email-queue";
 
     @Bean
     public Queue userQueue() {
